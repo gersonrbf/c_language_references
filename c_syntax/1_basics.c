@@ -1,7 +1,7 @@
-//commentary a lines of codes thats are intentionally
+//commentary are lines of code thats are intentionally
 //ignored by the compiler(1). Coders use it to write
 //human readable text inside their codes explaining
-//what certain part of the code is doing. Its specially
+//what certain part of the code do. Its specially
 //useful for code being write by multiple people, or 
 //when you go back to a code written a long time ago.
 //By the way, all this lines are comments.
@@ -32,17 +32,17 @@ run a C program it must has a main function
 int main()
 {
 
-     //printf is a function of the stdio library
+     //printf is a function of the stdio library.
      //I am not going to explain it in details
      //in this specific code. For now we are 
      //using it to print a sequence of characters
      //to the standard input/output that should be
      //your console/terminal.
-     printf("Welcome to the world\n");
+     printf("Welcome to the world\n");//\n is a escape sequence, and it denote newline character. There is others escape sequences for other unconventional characters.
      
 }
 
-//(1) Compiler is the program that read your script instruction
+//(1) Compiler is the program that read your script instructions
 //and convert it to instructions that your machine can understand.
 //Some language need to be compiled other are interpreted. If you
 //are new to programming, and is just trying to learn C, you does
