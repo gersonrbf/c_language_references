@@ -25,21 +25,40 @@ specific to it.
 
 
 /*
-When a C program is run, the main function
+When a C program is executed, the "main" function
 is the first thing to be executed. So to 
-run a C program it must has a main function
+run a C program it must has a main function.
+We will explain the concept of a function in a futher
+script. For now, just know that you will need put
+your code between the braces after the "int main()"
+for your first scripts.
 */
 int main()
 {
 
+     //Let's start making a program that print "Welcome to the world".
+     //To do it we will use the printf function.
      //printf is a function of the stdio library.
      //I am not going to explain it in details
      //in this specific code. For now we are 
      //using it to print a sequence of characters
      //to the standard input/output that should be
      //your console/terminal.
-     printf("Welcome to the world\n");//\n is a escape sequence, and it denote newline character. There is others escape sequences for other unconventional characters.
+     printf("Welcome to the world\n");
      
+     //\n is a escape sequence, and it denote newline character.
+     //There is others escape sequences for other unconventional
+     //characters.
+     
+     //notice that after the printf fuction the line is finished
+     //with a ';' character. In C after every instruction you 
+     //must use ';' to tell the end of the instruction.
+     //In other words after every variable declaration, assigment,
+     //or function call you must end with ';'. You will get used
+     //to it very quickly following the examples.
+
+     //Now try to run it and see what happens.
+
 }
 
 //(1) Compiler is the program that read your script instructions
