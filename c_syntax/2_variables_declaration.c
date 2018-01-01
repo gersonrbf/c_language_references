@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-//////////////////////
-// Variables Part 1 //
-//////////////////////
+////////////////////////////////////////////////
+// Variables Part 1                           //
+// Declaration, Initialization and Assignment //
+////////////////////////////////////////////////
 
 /*
 This script will start to explain concepts
