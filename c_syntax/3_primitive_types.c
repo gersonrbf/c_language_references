@@ -26,9 +26,9 @@ int main()
      //program. The primitive types are types native of the
      //languintExample, and cover the most common representations
      //that are needed in programs. Although most of the time
-     //we will be using the primitive types, the C languintExample
+     //we will be using the primitive types, the C language
      //also provide means to you create your own types and
-     //structures to representate your data, this will be
+     //structures to represent your data, this will be
      //covered in another script.
 
      /////////////////
